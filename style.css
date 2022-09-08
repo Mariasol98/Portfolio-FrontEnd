@@ -1,0 +1,212 @@
+
+
+
+.row { /*columna de menu*/
+    padding-top: .70rem;
+    padding-bottom: .1rem;
+    background-color: #ebd4c4;
+    font-size: 18px; /*tamaño de la letra*/
+}
+
+h1 span { /* color de la S*/
+    font-family: 'Alegreya', serif;
+    color:#e42d40;
+}
+
+h1 { /* color de la M*/
+    font-family: 'Alegreya', serif;
+    color: #142b3b;
+    text-align: left; /*ubicacion del texto*/
+}
+
+.redes a { /* color de iconos de redes*/
+    color: #142b3b;
+}
+
+.col-sm-2 a { /* color de letras del menu*/
+    color: #142b3b;
+    text-decoration: none;
+}
+
+html { /* efecto humo*/
+    scroll-behavior: smooth;
+}
+
+#inicio { /*color de fondo*/
+    background-color: #142b3b;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+h2{ /*soy maria sol*/
+    color: white;
+}
+
+.col-sm-2 a:hover{ /*cambia el color del menu al poner mouse encima*/
+    color: #e42d40;
+}
+
+.redes a:hover{ /*cambia el color de las redes al poner mouse encima*/
+    color: #e42d40;
+}
+
+#inicio .presentacion { /*POSICION Y TAMAÑO DE PRESENTACION */
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .presentacion .bienvenidos { /*BIENVENIDOS*/
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #e42d40;
+}
+
+#inicio .presentacion h2 { /*PRESENTACION*/
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .presentacion h2 span { /*NOMBRE DE PRESENTACION*/
+    font-size: 25px;
+    color: #e42d40;
+}
+
+#inicio .presentacion .descripcion { /*DESCRIPCION*/
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#inicio .presentacion a{ /*BIENVENIDOS, DESCRIPCION,IR A PORTFOLIO*/
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.portfolio { /*BOTON DE PORTFOLIO*/
+    border: 2px solid;
+    border-radius: 50px;
+    color: #e42d40;
+}
+
+.portfolio:hover{ /*cambia el color de las redes al poner mouse encima*/
+    background-color: #c8d7e3;
+}
+
+#inicio .presentacion a{ /*COLOR DE IR A PORTFOLIO*/
+    color: red;
+}
+
+/*SECCION S O B R E M I*/
+
+#sobremi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #142b3b;
+    display: flex; /*posicion de los elementos*/
+
+}
+
+#sobremi .contenedor-foto{ /* POSICION DE LA IMAGEN*/
+    max-width: 400px; /*ancho*/
+    margin-right: 80px;
+    padding-left: 80px;
+}
+
+#sobremi .contenedor-foto img{ /*POSICION DE LA IMAGEN*/
+    padding: 8px;
+    width: 100%;
+    background-color: #ebd4c4;
+}
+
+#sobremi .sobremi { /*POSICION DE TITULO/ DESCRIPCION*/
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion { /* SOBRE MI TITULO*/
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ebd4c4;
+    text-decoration: underline;
+    text-decoration-color: #e42d40;
+    text-decoration-thickness: 4px;
+}
+
+#sobremi .sobremi h2{ /*hola soy maria sol correa*/
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span{ /*color y fuente del nombre*/
+    font-family: 'Alegreya', serif;
+    color: #e42d40;
+}
+
+#sobremi .sobremi h3{ /* DESARROLLADORA FULL STACK DEVELOPER JR.*/
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#sobremi .sobremi p{ /*PARRAFOS*/
+    font-size: 14px; /*tamaño de fuente*/
+    line-height: 25px; /*altura de fuente*/
+    margin-bottom: 12px;
+    color: white;
+}
+
+#sobremi .sobremi a{ /* SECCION DESCARGAR CV*/
+    display: inline-block;
+    text-decoration: none;
+    color: #e42d40;
+    border-radius: 30px;
+    padding: 10px; /*distancia dentro del elemento*/
+    border: 1px solid;
+    margin-top: 30px; /*distancia hacia arriba*/
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover{ /*color al apoyar mouse*/
+    background-color:#c8d7e3;
+}
+
+#sobremi { /*FONDO*/
+    background-color: #142b3b;
+    background-size: cover;
+    background-position: center center ;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
