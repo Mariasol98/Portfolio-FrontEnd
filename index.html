@@ -16,6 +16,7 @@
     <!--SECCION MENU-->
     <div class="container-fluid">
         <div class="row">
+            <nav class="navbar">
             <div class="col-sm-3"> <h1>M<span>S</span></h1></div> <!--LOGO MS-->
             <div class="col-sm-2"> 
                 <nav class="sobre mi"> <!--SOBRE MI-->
@@ -43,35 +44,37 @@
                     <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#whatsapp"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
+</div>     
 
     <!--SECCION INICIO-->
     <div class="container-fluid">
-        <div class="row">
-       <section id="inicio">
-         <div class="presentacion">
-            <a class="bienvenidos">Bienvenidos</a>
-            <h2>Soy <span>Maria Sol</span>,Full Stack Developer Jr. </h2>
-            <a class="descripcion">Estudiante en Argentina Programa</a>
-            <a class= "portfolio" href="#portfolio">Ir a portfolio</a>
-         </div>   
-        </section>
+        <div class="responsive-font-example">
+            <div class="row">
+                <section id="inicio">
+                    <div class="presentacion">
+                        <a class="bienvenidos">Bienvenidos</a>
+                        <h2>Soy <span>Maria Sol</span>,Full Stack Developer Jr. </h2>
+                        <a class="descripcion">Estudiante en Argentina Programa</a>
+                        <a class= "portfolio" href="#portfolio">Ir a portfolio</a>
+                    </div>   
+                </section>
+            </div>
         </div>
     </div>   
 
 
     <!--SECCION SOBRE MI-->
     <div class="container-fluid">
-        <div class="row">
-             <section id="sobremi">
-                <div class="col-4">
-                 <div class="contenedor-foto">
-                    <img src="img/foto perfil.jpeg" alt="Maria Sol retrato"> <!--foto de perfil-->
-                 </div>
-                </div>
+             <div class="row">
+                <section id="sobremi">
+                        <div class="contenedor-foto">
+                            <img src="img/foto perfil.jpeg" alt="Maria Sol retrato"> <!--foto de perfil-->
+                        </div>
                  <div class="sobremi">
                     <p class="titulo-seccion">Sobre Mi</p>
                     <h2>Hola, soy <span>Maria Sol Correa</span></h2>
@@ -80,9 +83,132 @@
                     <p>Estudiante en Argentina Programa 2022.</p>
                     <a href="#">Descargar CV</a>
                 </div>
-             </section>
+                </section>
             </div>
     </div>
+
+
+    <!--SECCION EXPERIENCIA-->
+    <div class="container-fluid">
+        <div class="row">
+            <section id="experiencia">
+         <div class="contenido-habilidades" id="skills">
+            <h3>EXPERIENCIA</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>HTML & CSS</p> <!--HTML & CSS-->
+                    <span class="porcentaje">40%</span> 
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>JavaScript</p> <!--JAVASCRIPT-->
+                    <span class="porcentaje">20%</span> 
+                </div>
+                <div class="barra">
+                    <div id="javascript" class="barra-proceso2"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>BASE DE DATOS</p>
+                    <span class="porcentaje">10%</span> 
+                </div>
+                <div class="barra">
+                    <div id="base de datos" class="barra-proceso3"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>PHOTOSHOP</p>
+                    <span class="porcentaje">45%</span> 
+                </div>
+                <div class="barra">
+                    <div id="photoshop" class="barra-proceso4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </div>
+
+    <!--SECCION PROYECTOS-->
+     <div class="container-fluid">
+        <div class="row">
+            <section id="proyectos">
+        <div class="mis-proyectos">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/PROYECTO LC METALURGICA.jpg" alt="">
+                    <div class="info">
+                        <h4>LC METALURGICA</h4>
+                        <p>Descripcion del proyecto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/PROYECTO MEME.jpg" alt="">
+                    <div class="info">
+                        <h4>LAS PIRCAS</h4>
+                        <p>Descripcion del proyecto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/hakuna mattata logo.jpg" alt="">
+                    <div class="info">
+                        <h4>HAKUNA MATTATA</h4>
+                        <p>Descripcion del proyecto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section>
+        </div>
+     </div>
+
+     <!--SECCION CONTACTO-->
+     <div class="container-fluid">
+        <div class="row">
+            <section id="contacto">
+                <h3 class="titulo-seccion">Contactame</h3>
+                <div class="contenedor-form">
+                    <form action="">
+                        <div class="fila mitad">
+                            <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                            <input type="text" placeholder="Email" class="input-mitad">
+                        </div>
+                        <div class="fila">
+                            <input type="text" placeholder="Asunto" class="input-full">
+                        </div>
+                        <div class="fila">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                        </div>
+                        <input type="submit" value="Enviar mensaje" class="btn-enviar">
+                    </form>
+                </div>
+            </section>
+        </div>
+     </div>
+    
+     <!--SECCION FOOTER-->
+     <footer>
+        <p>Todos los derechos reservados-2022</p>
+        <div class="redes">
+            <a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#whatsapp"><i class="fa-brands fa-github"></i></a>
+        </div>
+     </footer>
 
 
      <!-- JavaScript Bundle with Popper -->
