@@ -13,14 +13,22 @@ h1 span { /* color de la S*/
 h1 { /* color de la M*/
     font-family: 'Alegreya', serif;
     color: #142b3b;
-    text-align: left; /*ubicacion del texto*/
+    top: 0;
+    margin: 0 12px;
+    text-align: center; /*ubicacion del texto*/
 }
 
 .redes a { /* color de iconos de redes*/
     color: #142b3b;
 }
 
-.navbar a { /* color de letras del menu*/
+#nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#nav ul li a { /* color de letras del menu*/
     color: #142b3b;
     text-decoration: none;
     margin: 0 12px;
@@ -28,7 +36,7 @@ h1 { /* color de la M*/
     transition: .5s;
 }
 
-.navbar a:hover{ /*cambia el color del menu al poner mouse encima*/
+#nav a:hover{ /*cambia el color del menu al poner mouse encima*/
     color: #e42d40;
 }
 
